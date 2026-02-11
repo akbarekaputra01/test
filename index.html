@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FrostyMart - Frozen Food Pilihan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav container">
+      <div class="brand">FrostyMart</div>
+      <button class="nav-cta">Belanja Sekarang</button>
+    </nav>
+
+    <div class="hero-content container">
+      <p class="tagline">Praktis • Higienis • Siap Masak</p>
+      <h1>Frozen Food Favorit Keluarga, Tinggal Goreng & Sajikan</h1>
+      <p class="hero-text">
+        Pilihan nugget, sosis, dimsum, hingga seafood premium dengan pengiriman cepat dan cold chain terjaga.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#produk">Lihat Produk</a>
+        <a class="btn btn-secondary" href="#promo">Lihat Promo</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section container" id="kategori">
+      <div class="section-head">
+        <h2>Kategori Populer</h2>
+      </div>
+      <div class="chips">
+        <button class="chip active" data-category="Semua">Semua</button>
+        <button class="chip" data-category="Nugget">Nugget</button>
+        <button class="chip" data-category="Sosis">Sosis</button>
+        <button class="chip" data-category="Dimsum">Dimsum</button>
+        <button class="chip" data-category="Seafood">Seafood</button>
+      </div>
+    </section>
+
+    <section class="section container" id="produk">
+      <div class="section-head">
+        <h2>Produk Frozen Food</h2>
+        <p>Harga hemat, stok fresh, dan banyak pilihan brand terpercaya.</p>
+      </div>
+      <div class="products" id="productList"></div>
+    </section>
+
+    <section class="section promo" id="promo">
+      <div class="container promo-box">
+        <div>
+          <p class="promo-label">PROMO SPESIAL</p>
+          <h3>Diskon hingga 25% untuk paket bulanan frozen food</h3>
+          <p>Cocok untuk stok keluarga dan kebutuhan usaha kuliner rumahan.</p>
+        </div>
+        <button class="btn btn-primary">Klaim Promo</button>
+      </div>
+    </section>
+
+    <section class="section container" id="keunggulan">
+      <div class="section-head">
+        <h2>Kenapa Belanja di FrostyMart?</h2>
+      </div>
+      <div class="features">
+        <article class="feature">
+          <h4>Pengiriman Dingin</h4>
+          <p>Produk dikirim dengan kemasan insulated agar kualitas tetap terjaga.</p>
+        </article>
+        <article class="feature">
+          <h4>Harga Grosir</h4>
+          <p>Tersedia harga lebih hemat untuk pembelian paket dan repeat order.</p>
+        </article>
+        <article class="feature">
+          <h4>CS Responsif</h4>
+          <p>Konsultasi produk dan stok cepat via chat untuk bantu belanja mudah.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 FrostyMart. Frozen food berkualitas untuk keluarga Indonesia.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
